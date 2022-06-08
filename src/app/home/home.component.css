@@ -1,0 +1,65 @@
+.home-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.allmovies {
+  width: 75%;
+  min-height: calc(100vh - 80px);
+  border-right: 1px solid red;
+  padding: 20px 40px;
+  font-family: "roboto, sans-serif";
+}
+
+.popularmovies {
+  width: 25%;
+  min-height: calc(100vh - 80px);
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-left: 5px solid #ff9900;
+  padding-left: 10px;
+}
+.viewall {
+  color: blue;
+  cursor: pointer;
+}
+.movies-thumbnail {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  gap: 25px;
+}
+.movies-thumbnail > .movie > .cover > img {
+  border-radius: 5px;
+}
+.detail {
+  width: 108px;
+}
+
+.detail > .name {
+    font-weight: bolder;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.star {
+    font-size: 1.5rem;
+    color: #b0c4de;
+  }
+  .filled {
+    color: #1e90ff;
+  }
+  .bad {
+    color: #deb0b0;
+  }
+  .filled.bad {
+    color: #ff1e1e;
+  }
