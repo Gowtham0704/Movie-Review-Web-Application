@@ -34,11 +34,11 @@
         name="pword"
         placeholder="Enter your Password"
         [(ngModel)]="password"
-      />
+      onsubmit="login()"/>
     </div>
     <div clas="btn-container">
       <div class="error">{{errorMsg}}</div>
-      <button type="button" class="btn btn-warning" (click)="login()">login</button>
+      <button type="button" class="btn btn-warning" id="btn" (click)="login()">login</button>
     </div>
   </div>
 </div>

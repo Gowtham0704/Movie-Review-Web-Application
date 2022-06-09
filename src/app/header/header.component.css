@@ -4,22 +4,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(45deg, red, blue);
+background: linear-gradient(to right, #e65c00, #f9d423); 
     padding: 30px;
   
   }
   .logo {
-    font-size: 18px;
-    font-family: "Creepster", cursive;
+    font-size: 22px;
+    font-family: 'creepster',cursive;
     font-weight: bold;
     letter-spacing: 4px;
     margin-left: 40px;
     cursor: pointer;
   }
   .logout {
-      font-family: 'Creepster', cursive;
-      margin: 40px;
-      cursor: pointer;
+    font-family: 'creepster',cursive;
+    font-size: 18px;
+    margin: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+    background: #F9D423;
+    text-decoration-line: underline;
   }
   
   

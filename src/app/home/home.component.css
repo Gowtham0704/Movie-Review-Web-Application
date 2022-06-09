@@ -1,6 +1,11 @@
+
 .home-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+background: linear-gradient(to bottom right, #EE3131, #3758AD);
 }
 .allmovies {
   width: 75%;
@@ -16,7 +21,7 @@
 }
 .top {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 10px;
 }
@@ -50,16 +55,43 @@ h4 {
     cursor: pointer;
     margin-bottom: 20px;
 }
-.star {
-    font-size: 1.5rem;
-    color: #b0c4de;
-  }
-  .filled {
-    color: #1e90ff;
-  }
-  .bad {
-    color: #deb0b0;
-  }
-  .filled.bad {
-    color: #ff1e1e;
-  }
+.rating{
+  padding-right: 45px;
+  position: relative;
+  
+}
+.rating-value{
+
+  position:absolute;
+  top:10px;
+  right:0px;
+  font-weight: bold;
+}
+.movies> .movie{
+  margin-bottom: 20px ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 30px;
+}
+.name{
+  font-weight: bolder;
+  cursor:pointer;
+}
+.veiw-all{
+  color: #ff9900;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.rating{
+  padding-right: 45px;
+  position: relative;
+}
+.rating-value{
+position: absolute;
+
+}
+.popularmovies{
+  display: flex;
+}

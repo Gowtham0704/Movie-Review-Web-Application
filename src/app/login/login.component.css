@@ -34,15 +34,19 @@
   width: 400px;
 }
 .login-form {
-  width: 478px;
-  height: 260px;
+  width: 500px;
+  height: 257px;
   padding: 20px;
   background-color: whitesmoke;
-  bottom: 10px;
+  bottom: 20px;
   right: 50px;
   border-radius: 30px;
   position: fixed;
   box-shadow: 5px 5px 20px #383838;
+  font-family: ui-monospace;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .form-group {
   margin-top: 20px;
@@ -55,4 +59,9 @@ label {
   top: 192px;
   right: 32px;
   color: red;
+}
+.btn{
+  height: 40px;
+  text-decoration: underline;
+  width: 100px;
 }

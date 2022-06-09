@@ -8,8 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class StarRatingComponent implements OnInit {
 
   
-  @Input () rating:any
-  @Input () isReadyOnly: boolean =false;
+@Input() rating:any;
+@Input() isReadyOnly: boolean =false;
 
   constructor() { }
 
